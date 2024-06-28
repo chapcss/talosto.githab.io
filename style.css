@@ -917,7 +917,11 @@ and (max-device-width : 992px){ .showmobile { display: inline; line-height: 20px
 .border-logo {
   border-radius: 10px;
   margin: 10px;
+  width: 46%;
+  height: 46%;
+  border:1px solid #000;
 }
+
               /* тут стили которые я добавил еще кончаются */
 
 img.pageImg{
@@ -6586,6 +6590,7 @@ tfoot {
 --------------------------------------------------------------*/
 .social-block .social-icon {
     padding-top: 10px;
+    text-align:center;
 }
 .social-block .social-icon a {
     color: #fff;
@@ -6632,7 +6637,7 @@ tfoot {
     height: 655px;
   }
   #header-wrap {
-    background: rgba(255, 255, 255, 0.6);
+    background: #e3f2ff99;
     padding: 22px 0;
   }
   #billboard .text-content .section-title, 
